@@ -1,1 +1,0 @@
-memsize   67108864   4.1477e+09 bytes/sec
