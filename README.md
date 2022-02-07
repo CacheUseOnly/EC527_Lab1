@@ -23,8 +23,8 @@ The ratio between the highest and the lowest is 1.19
 
 ### 1d.
 
-The bandwidth achieved when running just one task with largest memory size is 3.069e+10. 
-The bandwidth per task achieved closest to this bandwidth when running multiple tasks is **1.81e+10**.
+The bandwidth achieved when running just one task with largest memory size is 3.069e+10. With restricted memory size and bandwidth per task, there can be only one task.
+If the BW/task is not restricted, the bandwidth per task achieved **closest** to this bandwidth when running 2 tasks is **1.81e+10**.
 
 ## Part2
 ### 2a.
