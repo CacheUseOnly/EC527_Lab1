@@ -7,19 +7,24 @@ luoyx@bu.edu
 ## Part 1
 
 ### 1a.
+
 **1048576** bytes of memory give the highest bandwidth. \
 Besides, **262144** bytes gives a very similiar bandwidth.
+
 ### 1b.
+
 **67108864** gives the lowest.  \
 The ratio between the highest and the lowest is 1.19 
+
 ### 1c.
+
 16 Tasks with 262144 Bytes give the highest total bandwidth. \
 16 Tasks with 1048576 Bytes gives a similliar bandwidth.
-### 1d.
-The bandwidth achieved when running just one task with largest memory size is 3.069e+10.  
 
->**TODO**: how many tasks can you run at the same time on this machine, and
-get close to the same bandwidth per task as what you get with just one task?
+### 1d.
+
+The bandwidth achieved when running just one task with largest memory size is 3.069e+10. 
+The bandwidth per task achieved closest to this bandwidth when running multiple tasks is **1.81e+10**.
 
 ## Part2
 ### 2a.
@@ -40,6 +45,44 @@ Here is the zoom-in from 0 to 2000 row length.
 >TODO: Add picture 2c
 > Add explaination.
 ## Part3
-### 3a. ijk
-- 2 plateaus
-- a 
+
+### **3a** `ijk`
+
+  - How many plateaus are there?
+
+    2
+
+  - For each plateau, what is the number of cycles per innermost loop iteration (as defined above)?
+
+    First is around $7.6$; the second one is around $12.7$ 
+
+  - Between plateaus are the "transitions". Expressing your answer in terms of the matrix sizes (horizontal axis), where do the transitions occur?
+
+    The matrix size is around $1358^2 = 1844164$ 
+    
+### **3b** `jki`
+
+  - How many plateaus are there?
+
+    2
+
+  - For each plateau, what is the number of cycles per innermost loop iteration (as defined above)?
+
+    First is around $8.39$; the second one is around $23.26$ 
+
+  - Between plateaus are the "transitions". Expressing your answer in terms of the matrix sizes (horizontal axis), where do the transitions occur?
+
+    The matrix size is around $1806^2$ 
+### **3c** `kij`
+
+  - How many plateaus are there?
+
+    2
+
+  - For each plateau, what is the number of cycles per innermost loop iteration (as defined above)?
+
+    First is around $6.0$; the second one is around $7.0$ 
+
+  - Between plateaus are the "transitions". Expressing your answer in terms of the matrix sizes (horizontal axis), where do the transitions occur?
+
+    The matrix size is around $1256^2$ 
