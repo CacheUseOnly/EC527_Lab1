@@ -86,3 +86,18 @@ Here is the zoom-in from 0 to 2000 row length.
   - Between plateaus are the "transitions". Expressing your answer in terms of the matrix sizes (horizontal axis), where do the transitions occur?
 
     The matrix size is around $1256^2$ 
+
+## Part 4
+
+### a
+
+**The benefit of blocking as a function of matrix size**
+
+$HitRate(n) = \frac{2n^3}{\text{cache block size}\times \text{block size}}$
+
+### b
+
+**The optimal block size as a function of matrix size.**
+
+According to the graph, it should be `16`
+

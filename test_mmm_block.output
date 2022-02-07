@@ -1,0 +1,239 @@
+Block MMM tests 
+
+for 25 different matrix sizes from 8 to 1256
+This may take a while!
+
+ Block MMM, iter 0, size 8, block size 8
+time: 4332
+ Block MMM, iter 1, size 14, block size 8
+time: 7134
+ Block MMM, iter 2, size 24, block size 8
+time: 25893
+ Block MMM, iter 3, size 38, block size 8
+time: 102555
+ Block MMM, iter 4, size 56, block size 8
+time: 310170
+ Block MMM, iter 5, size 78, block size 8
+time: 824574
+ Block MMM, iter 6, size 104, block size 8
+time: 1926450
+ Block MMM, iter 7, size 134, block size 8
+time: 4106370
+ Block MMM, iter 8, size 168, block size 8
+time: 8074044
+ Block MMM, iter 9, size 206, block size 8
+time: 14949132
+ Block MMM, iter 10, size 248, block size 8
+time: 26908560
+ Block MMM, iter 11, size 294, block size 8
+time: 43858986
+ Block MMM, iter 12, size 344, block size 8
+time: 72885672
+ Block MMM, iter 13, size 398, block size 8
+time: 111499029
+ Block MMM, iter 14, size 456, block size 8
+time: 171435078
+ Block MMM, iter 15, size 518, block size 8
+time: 258200853
+ Block MMM, iter 16, size 584, block size 8
+time: 362963898
+ Block MMM, iter 17, size 654, block size 8
+time: 509526876
+ Block MMM, iter 18, size 728, block size 8
+time: 701363226
+ Block MMM, iter 19, size 806, block size 8
+time: 954188844
+ Block MMM, iter 20, size 888, block size 8
+time: 1275390018
+ Block MMM, iter 21, size 974, block size 8
+time: 1680313131
+ Block MMM, iter 22, size 1064, block size 8
+time: 2207648256
+ Block MMM, iter 23, size 1158, block size 8
+time: 2841448365
+ Block MMM, iter 24, size 1256, block size 8
+time: 3692116230
+
+ Block MMM, iter 0, size 8, block size 16
+time: 2418
+ Block MMM, iter 1, size 14, block size 16
+time: 6057
+ Block MMM, iter 2, size 24, block size 16
+time: 25446
+ Block MMM, iter 3, size 38, block size 16
+time: 95580
+ Block MMM, iter 4, size 56, block size 16
+time: 290220
+ Block MMM, iter 5, size 78, block size 16
+time: 753351
+ Block MMM, iter 6, size 104, block size 16
+time: 1787778
+ Block MMM, iter 7, size 134, block size 16
+time: 3765321
+ Block MMM, iter 8, size 168, block size 16
+time: 7458810
+ Block MMM, iter 9, size 206, block size 16
+time: 13739691
+ Block MMM, iter 10, size 248, block size 16
+time: 24532893
+ Block MMM, iter 11, size 294, block size 16
+time: 40562214
+ Block MMM, iter 12, size 344, block size 16
+time: 65630073
+ Block MMM, iter 13, size 398, block size 16
+time: 103449930
+ Block MMM, iter 14, size 456, block size 16
+time: 153421689
+ Block MMM, iter 15, size 518, block size 16
+time: 225193581
+ Block MMM, iter 16, size 584, block size 16
+time: 322625643
+ Block MMM, iter 17, size 654, block size 16
+time: 451608273
+ Block MMM, iter 18, size 728, block size 16
+time: 622632585
+ Block MMM, iter 19, size 806, block size 16
+time: 844217592
+ Block MMM, iter 20, size 888, block size 16
+time: 1131352833
+ Block MMM, iter 21, size 974, block size 16
+time: 1489039893
+ Block MMM, iter 22, size 1064, block size 16
+time: 1943311089
+ Block MMM, iter 23, size 1158, block size 16
+time: 2508487635
+ Block MMM, iter 24, size 1256, block size 16
+time: 3220148355
+
+ Block MMM, iter 0, size 8, block size 32
+time: 2490
+ Block MMM, iter 1, size 14, block size 32
+time: 5394
+ Block MMM, iter 2, size 24, block size 32
+time: 24432
+ Block MMM, iter 3, size 38, block size 32
+time: 104541
+ Block MMM, iter 4, size 56, block size 32
+time: 299703
+ Block MMM, iter 5, size 78, block size 32
+time: 822561
+ Block MMM, iter 6, size 104, block size 32
+time: 1940019
+ Block MMM, iter 7, size 134, block size 32
+time: 4176828
+ Block MMM, iter 8, size 168, block size 32
+time: 8158578
+ Block MMM, iter 9, size 206, block size 32
+time: 15004473
+ Block MMM, iter 10, size 248, block size 32
+time: 26119665
+ Block MMM, iter 11, size 294, block size 32
+time: 44161986
+ Block MMM, iter 12, size 344, block size 32
+time: 69959967
+ Block MMM, iter 13, size 398, block size 32
+time: 108464895
+ Block MMM, iter 14, size 456, block size 32
+time: 163625643
+ Block MMM, iter 15, size 518, block size 32
+time: 239021205
+ Block MMM, iter 16, size 584, block size 32
+time: 343720314
+ Block MMM, iter 17, size 654, block size 32
+time: 481818096
+ Block MMM, iter 18, size 728, block size 32
+time: 664331394
+ Block MMM, iter 19, size 806, block size 32
+time: 905044929
+ Block MMM, iter 20, size 888, block size 32
+time: 1202946564
+ Block MMM, iter 21, size 974, block size 32
+time: 1594090035
+ Block MMM, iter 22, size 1064, block size 32
+time: 2081722794
+ Block MMM, iter 23, size 1158, block size 32
+time: 2690515467
+ Block MMM, iter 24, size 1256, block size 32
+time: 3432818625
+
+ Block MMM, iter 0, size 8, block size 64
+time: 2304
+ Block MMM, iter 1, size 14, block size 64
+time: 5628
+ Block MMM, iter 2, size 24, block size 64
+time: 24405
+ Block MMM, iter 3, size 38, block size 64
+time: 104091
+ Block MMM, iter 4, size 56, block size 64
+time: 322767
+ Block MMM, iter 5, size 78, block size 64
+time: 975378
+ Block MMM, iter 6, size 104, block size 64
+time: 2098215
+ Block MMM, iter 7, size 134, block size 64
+time: 4648194
+ Block MMM, iter 8, size 168, block size 64
+time: 9142311
+ Block MMM, iter 9, size 206, block size 64
+time: 15731091
+ Block MMM, iter 10, size 248, block size 64
+time: 27554937
+ Block MMM, iter 11, size 294, block size 64
+time: 45750630
+ Block MMM, iter 12, size 344, block size 64
+time: 73234635
+ Block MMM, iter 13, size 398, block size 64
+time: 113877504
+ Block MMM, iter 14, size 456, block size 64
+time: 172729476
+ Block MMM, iter 15, size 518, block size 64
+time: 249577719
+ Block MMM, iter 16, size 584, block size 64
+time: 369934176
+ Block MMM, iter 17, size 654, block size 64
+time: 504081501
+ Block MMM, iter 18, size 728, block size 64
+time: 696452151
+ Block MMM, iter 19, size 806, block size 64
+time: 946520541
+ Block MMM, iter 20, size 888, block size 64
+time: 1268497749
+ Block MMM, iter 21, size 974, block size 64
+time: 1669320837
+ Block MMM, iter 22, size 1064, block size 64
+time: 2190901719
+ Block MMM, iter 23, size 1158, block size 64
+time: 2816501721
+ Block MMM, iter 24, size 1256, block size 64
+time: 3614173356
+
+Done collecting measurements.
+
+row_len, bijk
+8, 4332, 2418, 2490, 2304
+14, 7134, 6057, 5394, 5628
+24, 25893, 25446, 24432, 24405
+38, 102555, 95580, 104541, 104091
+56, 310170, 290220, 299703, 322767
+78, 824574, 753351, 822561, 975378
+104, 1926450, 1787778, 1940019, 2098215
+134, 4106370, 3765321, 4176828, 4648194
+168, 8074044, 7458810, 8158578, 9142311
+206, 14949132, 13739691, 15004473, 15731091
+248, 26908560, 24532893, 26119665, 27554937
+294, 43858986, 40562214, 44161986, 45750630
+344, 72885672, 65630073, 69959967, 73234635
+398, 111499029, 103449930, 108464895, 113877504
+456, 171435078, 153421689, 163625643, 172729476
+518, 258200853, 225193581, 239021205, 249577719
+584, 362963898, 322625643, 343720314, 369934176
+654, 509526876, 451608273, 481818096, 504081501
+728, 701363226, 622632585, 664331394, 696452151
+806, 954188844, 844217592, 905044929, 946520541
+888, 1275390018, 1131352833, 1202946564, 1268497749
+974, 1680313131, 1489039893, 1594090035, 1669320837
+1064, 2207648256, 1943311089, 2081722794, 2190901719
+1158, 2841448365, 2508487635, 2690515467, 2816501721
+1256, 3692116230, 3220148355, 3432818625, 3614173356
+
+Wakeup delay computed: 1.00571 
