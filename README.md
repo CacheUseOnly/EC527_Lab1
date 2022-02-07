@@ -101,3 +101,21 @@ $HitRate(n) = \frac{2n^3}{\text{cache block size}\times \text{block size}}$
 
 According to the graph, it should be `16`
 
+## Part 6
+
+### How long did it take?
+
+8+ hours
+
+### Did any part take an "unreasonable" amount of time for what it is trying to accomplish?
+
+Part 1 question d, because there is no way, as shown on the data, that you can obtain almost the same BW/task when using that amount of memory
+
+### Are you missing skills needed to carry out this assignment?
+
+Knowledge about blocking technique needs to be solidified.
+
+### Are there problems with the lab?
+
+Instructions not very clear, often cause confusion (what questions need to be done, what only requires some thinking, what needs to be hand in).
+
