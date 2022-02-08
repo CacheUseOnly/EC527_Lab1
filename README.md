@@ -40,7 +40,7 @@ cycle time: 3.33*e-10
 |  ----  | ----  | ----  |
 | Combine2D | 5.44e+09 - 5.14e+09 | 5.44e+09 - 5.45e+09  |
 | Combine2D_rev  | 5.36e+09 - 5.13e+09 | 9.64e+09 - 8.51e+09  |
-Because of the cache, when doing matrix operation row-majorly, the miss rate will be extremely high. That is why the 2D_rev is much slower than 2D. 
+- Because of the cache, when doing matrix operation row-majorly, the miss rate will be extremely high. That is why the 2D_rev is much slower than 2D. 
 ### 2c.
 The U shape starts at the very beginning of two charts. 
 Here is the zoom-in from 0 to 2000 row length.
@@ -109,9 +109,12 @@ According to the graph, it should be `16`
 - ![b32](https://github.com/CacheUseOnly/EC527_Lab1/blob/main/lab1_5_pics/b32.png)
 - ![b64](https://github.com/CacheUseOnly/EC527_Lab1/blob/main/lab1_5_pics/b64.png)
 ### a
-
+Please see code.
 ### b
-
+I tested a range over 10000 elements to  $1.4 * 10 ^ 8$
+### c
+I block the code by adding a for loop outside of the i j loop. 
+This should make the writing process more efficient. Since if we are reading column major in the original matrix, we have to write row major in the target matrix which is inefficient. If we block the code to prevent it from infinitely adding unaccessible memory to cache, more cache hit can be made even it is reading/writing row-wise. It seems that when block size is 16, it is helping both the ij and ji. However, if the block size is too big, it is not helping at all. 
 
 
 ## Part 6
