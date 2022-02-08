@@ -31,7 +31,7 @@ If the BW/task is not restricted, the bandwidth per task achieved **closest** to
 - Around the size of 50000 x 50000, the test starts to run incredibly slow. 
 - At first it Combine2D() is 7.5% faster than Combine2D_Rev(), after the row length passes 1800, the difference becomes more than 50%.
 - Starting from row_len 1164, the ratio drastically increased.
-
+![2a](https://github.com/CacheUseOnly/EC527_Lab1/blob/main/lab1_2_pics/2a_1.png)
 ### 2b.
 cycle time: 3.33*e-10
 |   | CPE for range 100-442 | CPE for range 10000-10342 |
