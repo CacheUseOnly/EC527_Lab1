@@ -30,22 +30,23 @@ If the BW/task is not restricted, the bandwidth per task achieved **closest** to
 ### 2a.
 - Around the size of 50000 x 50000, the test starts to run incredibly slow. 
 - At first it Combine2D() is 7.5% faster than Combine2D_Rev(), after the row length passes 1800, the difference becomes more than 50%.
+-![2a1](https://github.com/CacheUseOnly/EC527_Lab1/blob/main/lab1_2_pics/2a_1.png)
+-![2a2](https://github.com/CacheUseOnly/EC527_Lab1/blob/main/lab1_2_pics/2a_2.png)
 - Starting from row_len 1164, the ratio drastically increased.
-![2a](https://github.com/CacheUseOnly/EC527_Lab1/blob/main/lab1_2_pics/2a_1.png)
+
 ### 2b.
 cycle time: 3.33*e-10
 |   | CPE for range 100-442 | CPE for range 10000-10342 |
 |  ----  | ----  | ----  |
 | Combine2D | 5.44e+09 - 5.14e+09 | 5.44e+09 - 5.45e+09  |
 | Combine2D_rev  | 5.36e+09 - 5.13e+09 | 9.64e+09 - 8.51e+09  |
-> **TODO**: Applying your knowledge of the computer, interpret your observations here.
+Because of the cache, when doing matrix operation row-majorly, the miss rate will be extremely high. That is why the 2D_rev is much slower than 2D. 
 ### 2c.
 The U shape starts at the very beginning of two charts. 
 Here is the zoom-in from 0 to 2000 row length.
->TODO: Add picture 2c
-> Add explaination.
+![2c](https://github.com/CacheUseOnly/EC527_Lab1/blob/main/lab1_2_pics/2czoomin1.png)
 ## Part3
-
+![part3](https://github.com/CacheUseOnly/EC527_Lab1/blob/main/part3.png)
 ### **3a** `ijk`
 
   - How many plateaus are there?
@@ -100,6 +101,18 @@ $HitRate(n) = \frac{2n^3}{\text{cache block size}\times \text{block size}}$
 **The optimal block size as a function of matrix size.**
 
 According to the graph, it should be `16`
+
+## Part 5
+- please see the following pictures. 
+- ![b8](https://github.com/CacheUseOnly/EC527_Lab1/blob/main/lab1_5_pics/b8.png)
+- ![b16](https://github.com/CacheUseOnly/EC527_Lab1/blob/main/lab1_5_pics/b16.png)
+- ![b32](https://github.com/CacheUseOnly/EC527_Lab1/blob/main/lab1_5_pics/b32.png)
+- ![b64](https://github.com/CacheUseOnly/EC527_Lab1/blob/main/lab1_5_pics/b64.png)
+### a
+
+### b
+
+
 
 ## Part 6
 
